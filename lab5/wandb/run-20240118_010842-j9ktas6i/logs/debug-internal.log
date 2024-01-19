@@ -1,0 +1,287 @@
+2024-01-18 01:08:42,570 INFO    StreamThr :10268 [internal.py:wandb_internal():86] W&B internal server running at pid: 10268, started at: 2024-01-18 01:08:42.570372
+2024-01-18 01:08:42,571 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status
+2024-01-18 01:08:42,574 INFO    WriterThread:10268 [datastore.py:open_for_write():85] open: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\run-j9ktas6i.wandb
+2024-01-18 01:08:42,574 DEBUG   SenderThread:10268 [sender.py:send():382] send: header
+2024-01-18 01:08:42,574 DEBUG   SenderThread:10268 [sender.py:send():382] send: run
+2024-01-18 01:08:43,012 INFO    SenderThread:10268 [dir_watcher.py:__init__():211] watching files in: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files
+2024-01-18 01:08:43,019 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: check_version
+2024-01-18 01:08:43,021 INFO    SenderThread:10268 [sender.py:_start_run_threads():1136] run started: j9ktas6i with start time 1705532922.571758
+2024-01-18 01:08:43,021 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: check_version
+2024-01-18 01:08:43,188 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: run_start
+2024-01-18 01:08:43,207 DEBUG   HandlerThread:10268 [system_info.py:__init__():32] System info init
+2024-01-18 01:08:43,207 DEBUG   HandlerThread:10268 [system_info.py:__init__():47] System info init done
+2024-01-18 01:08:43,207 INFO    HandlerThread:10268 [system_monitor.py:start():194] Starting system monitor
+2024-01-18 01:08:43,207 INFO    SystemMonitor:10268 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-18 01:08:43,207 INFO    HandlerThread:10268 [system_monitor.py:probe():214] Collecting system info
+2024-01-18 01:08:43,212 INFO    SystemMonitor:10268 [interfaces.py:start():190] Started cpu monitoring
+2024-01-18 01:08:43,212 INFO    SystemMonitor:10268 [interfaces.py:start():190] Started disk monitoring
+2024-01-18 01:08:43,213 INFO    SystemMonitor:10268 [interfaces.py:start():190] Started gpu monitoring
+2024-01-18 01:08:43,219 INFO    SystemMonitor:10268 [interfaces.py:start():190] Started memory monitoring
+2024-01-18 01:08:43,229 INFO    SystemMonitor:10268 [interfaces.py:start():190] Started network monitoring
+2024-01-18 01:08:43,234 DEBUG   HandlerThread:10268 [system_info.py:probe():196] Probing system
+2024-01-18 01:08:43,235 DEBUG   HandlerThread:10268 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-18 01:08:43,235 DEBUG   HandlerThread:10268 [system_info.py:probe():244] Probing system done
+2024-01-18 01:08:43,235 DEBUG   HandlerThread:10268 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.11', 'heartbeatAt': '2024-01-17T23:08:43.235469', 'startedAt': '2024-01-17T23:08:42.557489', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'e:\\uni\\Invatare ADANCA\\lab5\\cod_curat.py', 'codePathLocal': 'cod_curat.py', 'codePath': 'cod_curat.py', 'host': 'DESKTOP-421IUJJ', 'username': 'byefu', 'executable': 'C:\\Users\\byefu\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3040.0, 'min': 0.0, 'max': 3801.0}, 'cpu_freq_per_core': [{'current': 3040.0, 'min': 0.0, 'max': 3801.0}], 'disk': {'/': {'total': 226.56249618530273, 'used': 99.2906379699707}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.189807891845703}}
+2024-01-18 01:08:43,235 INFO    HandlerThread:10268 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-18 01:08:43,235 INFO    HandlerThread:10268 [system_monitor.py:probe():227] Publishing system info
+2024-01-18 01:08:43,235 DEBUG   HandlerThread:10268 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-18 01:08:43,236 DEBUG   HandlerThread:10268 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-18 01:08:43,236 INFO    HandlerThread:10268 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-18 01:08:43,240 DEBUG   SenderThread:10268 [sender.py:send():382] send: files
+2024-01-18 01:08:43,240 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-18 01:08:43,246 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:08:43,247 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:08:43,247 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:08:43,504 DEBUG   SenderThread:10268 [sender.py:send():382] send: telemetry
+2024-01-18 01:08:43,931 INFO    wandb-upload_0:10268 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmprrcjt8f9wandb\o7sqet8x-wandb-metadata.json
+2024-01-18 01:08:44,013 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-metadata.json
+2024-01-18 01:08:44,013 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\requirements.txt
+2024-01-18 01:08:48,014 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:08:48,048 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:50,071 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:52,097 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:53,117 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:08:54,102 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:56,126 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:58,143 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:08:58,153 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:08:58,261 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:08:58,261 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:08:58,262 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:09:00,169 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:02,192 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:03,181 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:04,212 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:06,228 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:08,247 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:08,278 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:10,267 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:12,279 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:12,430 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 01:09:12,430 DEBUG   SenderThread:10268 [sender.py:send():382] send: history
+2024-01-18 01:09:12,430 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 01:09:12,438 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:09:13,271 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:09:13,272 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:09:13,272 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:09:13,287 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:09:13,526 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:14,293 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\config.yaml
+2024-01-18 01:09:14,293 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:16,315 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:18,339 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:18,797 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:20,365 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:22,383 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:23,799 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:24,404 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:26,431 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:28,279 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:09:28,279 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:09:28,280 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:09:28,448 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:28,912 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:30,468 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:32,492 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:34,022 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:34,516 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:36,535 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:36,606 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 01:09:36,607 DEBUG   SenderThread:10268 [sender.py:send():382] send: history
+2024-01-18 01:09:36,607 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 01:09:36,607 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:09:37,548 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:09:38,560 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:39,087 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:40,585 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:42,606 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:43,243 DEBUG   SystemMonitor:10268 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-18 01:09:43,244 DEBUG   SenderThread:10268 [sender.py:send():382] send: stats
+2024-01-18 01:09:43,291 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:09:43,292 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:09:43,292 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:09:44,089 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:44,630 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:46,659 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:48,674 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:49,196 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:50,697 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:52,716 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:54,297 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:09:54,731 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:56,752 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:58,295 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:09:58,310 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:09:58,310 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:09:58,763 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:09:59,394 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:00,751 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 01:10:00,752 DEBUG   SenderThread:10268 [sender.py:send():382] send: history
+2024-01-18 01:10:00,752 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 01:10:00,752 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:10:00,787 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:10:00,787 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:01,798 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:02,809 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:04,437 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:04,825 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:06,842 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:08,866 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:09,532 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:10,889 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:11,911 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:13,252 DEBUG   SenderThread:10268 [sender.py:send():382] send: stats
+2024-01-18 01:10:13,298 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:10:13,313 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 01:10:13,313 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 01:10:13,939 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:14,629 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:15,961 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:17,975 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:19,721 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:20,000 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:22,023 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:24,038 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:24,816 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:24,843 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 01:10:24,843 DEBUG   SenderThread:10268 [sender.py:send():382] send: history
+2024-01-18 01:10:24,844 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 01:10:24,844 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:10:25,047 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:10:26,060 INFO    Thread-16 :10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:27,182 DEBUG   SenderThread:10268 [sender.py:send():382] send: exit
+2024-01-18 01:10:27,182 INFO    SenderThread:10268 [sender.py:send_exit():589] handling exit code: 255
+2024-01-18 01:10:27,182 INFO    SenderThread:10268 [sender.py:send_exit():591] handling runtime: 103
+2024-01-18 01:10:27,183 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:10:27,183 INFO    SenderThread:10268 [sender.py:send_exit():597] send defer
+2024-01-18 01:10:27,183 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,183 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-18 01:10:27,183 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,183 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-18 01:10:27,184 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 1
+2024-01-18 01:10:27,184 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,184 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-18 01:10:27,184 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,184 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-18 01:10:27,184 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 2
+2024-01-18 01:10:27,184 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,184 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-18 01:10:27,184 INFO    HandlerThread:10268 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-18 01:10:27,184 DEBUG   SystemMonitor:10268 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-18 01:10:27,184 INFO    HandlerThread:10268 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-18 01:10:27,185 DEBUG   SystemMonitor:10268 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-18 01:10:27,191 INFO    HandlerThread:10268 [interfaces.py:finish():202] Joined disk monitor
+2024-01-18 01:10:27,236 INFO    HandlerThread:10268 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-18 01:10:27,237 INFO    HandlerThread:10268 [interfaces.py:finish():202] Joined memory monitor
+2024-01-18 01:10:27,237 INFO    HandlerThread:10268 [interfaces.py:finish():202] Joined network monitor
+2024-01-18 01:10:27,237 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,237 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-18 01:10:27,237 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 3
+2024-01-18 01:10:27,237 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,237 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-18 01:10:27,246 DEBUG   SenderThread:10268 [sender.py:send():382] send: stats
+2024-01-18 01:10:27,247 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,247 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-18 01:10:27,247 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 4
+2024-01-18 01:10:27,247 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,247 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-18 01:10:27,247 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,247 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-18 01:10:27,247 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 5
+2024-01-18 01:10:27,247 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,247 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-18 01:10:27,248 DEBUG   SenderThread:10268 [sender.py:send():382] send: summary
+2024-01-18 01:10:27,248 INFO    SenderThread:10268 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 01:10:27,248 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,248 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-18 01:10:27,248 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 6
+2024-01-18 01:10:27,248 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,248 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-18 01:10:27,248 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,248 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-18 01:10:27,248 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 7
+2024-01-18 01:10:27,249 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 01:10:27,249 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:27,249 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-18 01:10:27,249 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:27,249 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-18 01:10:28,021 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 8
+2024-01-18 01:10:28,022 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:28,022 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-18 01:10:28,022 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:28,022 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-18 01:10:28,022 INFO    SenderThread:10268 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-18 01:10:28,022 INFO    SenderThread:10268 [job_builder.py:_get_source_type():439] no source found
+2024-01-18 01:10:28,023 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 9
+2024-01-18 01:10:28,023 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:28,023 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-18 01:10:28,023 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:28,023 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-18 01:10:28,023 INFO    SenderThread:10268 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-18 01:10:28,083 INFO    SenderThread:10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:10:28,083 INFO    SenderThread:10268 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:28,083 INFO    SenderThread:10268 [dir_watcher.py:finish():388] scan: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files
+2024-01-18 01:10:28,083 INFO    SenderThread:10268 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\config.yaml config.yaml
+2024-01-18 01:10:28,083 INFO    SenderThread:10268 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log output.log
+2024-01-18 01:10:28,085 INFO    SenderThread:10268 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\requirements.txt requirements.txt
+2024-01-18 01:10:28,086 INFO    SenderThread:10268 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-metadata.json wandb-metadata.json
+2024-01-18 01:10:28,086 INFO    SenderThread:10268 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json wandb-summary.json
+2024-01-18 01:10:28,088 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 10
+2024-01-18 01:10:28,088 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:28,088 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-18 01:10:28,090 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:28,090 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-18 01:10:28,090 INFO    SenderThread:10268 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 01:10:28,192 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 01:10:28,192 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 01:10:28,486 INFO    wandb-upload_1:10268 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\output.log
+2024-01-18 01:10:28,555 INFO    wandb-upload_0:10268 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\config.yaml
+2024-01-18 01:10:28,669 INFO    wandb-upload_2:10268 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\requirements.txt
+2024-01-18 01:10:28,703 INFO    wandb-upload_3:10268 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\files\wandb-summary.json
+2024-01-18 01:10:28,909 INFO    Thread-15 (_thread_body):10268 [sender.py:transition_state():617] send defer: 11
+2024-01-18 01:10:28,909 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:28,909 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-18 01:10:28,909 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:28,909 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-18 01:10:28,910 INFO    SenderThread:10268 [file_pusher.py:join():181] waiting for file pusher
+2024-01-18 01:10:28,910 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 12
+2024-01-18 01:10:28,910 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:28,910 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-18 01:10:28,910 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:28,910 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-18 01:10:28,910 INFO    SenderThread:10268 [file_stream.py:finish():595] file stream finish called
+2024-01-18 01:10:29,203 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 01:10:29,482 INFO    SenderThread:10268 [file_stream.py:finish():599] file stream finish is done
+2024-01-18 01:10:29,482 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 13
+2024-01-18 01:10:29,482 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 01:10:29,482 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:29,482 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-18 01:10:29,482 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:29,483 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-18 01:10:29,483 INFO    SenderThread:10268 [sender.py:transition_state():617] send defer: 14
+2024-01-18 01:10:29,483 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 01:10:29,483 DEBUG   SenderThread:10268 [sender.py:send():382] send: final
+2024-01-18 01:10:29,483 INFO    HandlerThread:10268 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-18 01:10:29,483 DEBUG   SenderThread:10268 [sender.py:send():382] send: footer
+2024-01-18 01:10:29,483 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: defer
+2024-01-18 01:10:29,483 INFO    SenderThread:10268 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-18 01:10:29,483 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 01:10:29,484 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 01:10:29,484 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 01:10:29,484 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: server_info
+2024-01-18 01:10:29,484 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-18 01:10:29,484 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 01:10:29,484 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-18 01:10:29,485 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: server_info
+2024-01-18 01:10:29,485 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 01:10:29,486 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: job_info
+2024-01-18 01:10:29,635 DEBUG   SenderThread:10268 [sender.py:send_request():409] send_request: job_info
+2024-01-18 01:10:29,636 INFO    MainThread:10268 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-18 01:10:29,636 INFO    MainThread:10268 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-18 01:10:29,637 INFO    MainThread:10268 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-18 01:10:29,638 DEBUG   HandlerThread:10268 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-18 01:10:29,638 INFO    HandlerThread:10268 [handler.py:finish():866] shutting down handler
+2024-01-18 01:10:30,492 INFO    WriterThread:10268 [datastore.py:close():294] close: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_010842-j9ktas6i\run-j9ktas6i.wandb
+2024-01-18 01:10:30,646 INFO    SenderThread:10268 [sender.py:finish():1548] shutting down sender
+2024-01-18 01:10:30,646 INFO    SenderThread:10268 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 01:10:30,646 INFO    SenderThread:10268 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,39 @@
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Configure stats pid to 24908
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Loading settings from C:\Users\byefu\.config\wandb\settings
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Loading settings from E:\uni\Invatare ADANCA\lab5\wandb\settings
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-18 00:59:55,553 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cod_curat.py', 'program_abspath': 'e:\\uni\\Invatare ADANCA\\lab5\\cod_curat.py', 'program': 'e:\\uni\\Invatare ADANCA\\lab5\\cod_curat.py'}
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:_log_setup():524] Logging user logs to E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\logs\debug.log
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:_log_setup():525] Logging internal logs to E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\logs\debug-internal.log
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:init():564] calling init triggers
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:init():614] starting backend
+2024-01-18 00:59:55,554 INFO    MainThread:24908 [wandb_init.py:init():618] setting up manager
+2024-01-18 00:59:55,555 INFO    MainThread:24908 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-01-18 00:59:55,557 INFO    MainThread:24908 [wandb_init.py:init():624] backend started and connected
+2024-01-18 00:59:55,558 INFO    MainThread:24908 [wandb_init.py:init():716] updated telemetry
+2024-01-18 00:59:55,559 INFO    MainThread:24908 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-01-18 00:59:55,989 INFO    MainThread:24908 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-18 00:59:56,170 WARNING MainThread:24908 [wandb_init.py:init():1192] interrupted
+Traceback (most recent call last):
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_init.py", line 798, in init
+    run._on_init()
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 2258, in _on_init
+    version_result = version_handle.wait(timeout=30)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-01-18 00:59:59,311 WARNING MsgRouterThr:24908 [router.py:message_loop():77] message_loop has been closed

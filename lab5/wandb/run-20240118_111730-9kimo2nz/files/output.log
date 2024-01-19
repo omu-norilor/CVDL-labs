@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 341, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 317, in test_prediction
+    plt.imshow(rgb_image.permute(1, 2, 0).numpy().astype(np.uint8))
+AttributeError: 'numpy.ndarray' object has no attribute 'permute'
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 341, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 317, in test_prediction
+    plt.imshow(rgb_image.permute(1, 2, 0).numpy().astype(np.uint8))
+AttributeError: 'numpy.ndarray' object has no attribute 'permute'

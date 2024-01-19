@@ -1,0 +1,2 @@
+e:\uni\Invatare ADANCA\lab5\cod_curat.py:318: RuntimeWarning: invalid value encountered in cast
+  plt.imshow(outputs[j].cpu().permute(1, 2, 0).numpy().astype(np.uint8))

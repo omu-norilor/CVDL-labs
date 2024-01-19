@@ -1,0 +1,27 @@
+> e:\uni\invatare adanca\lab5\cod_curat.py(310)test_prediction()
+-> rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+torch.Size([8, 3, 250, 250])
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 342, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 310, in test_prediction
+    rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 310, in test_prediction
+    rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 342, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 310, in test_prediction
+    rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 310, in test_prediction
+    rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

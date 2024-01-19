@@ -1,0 +1,264 @@
+2024-01-18 11:18:25,559 INFO    StreamThr :20452 [internal.py:wandb_internal():86] W&B internal server running at pid: 20452, started at: 2024-01-18 11:18:25.559735
+2024-01-18 11:18:25,564 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status
+2024-01-18 11:18:25,564 INFO    WriterThread:20452 [datastore.py:open_for_write():85] open: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\run-adoh3nqt.wandb
+2024-01-18 11:18:25,566 DEBUG   SenderThread:20452 [sender.py:send():382] send: header
+2024-01-18 11:18:25,567 DEBUG   SenderThread:20452 [sender.py:send():382] send: run
+2024-01-18 11:18:26,051 INFO    SenderThread:20452 [dir_watcher.py:__init__():211] watching files in: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files
+2024-01-18 11:18:26,059 INFO    SenderThread:20452 [sender.py:_start_run_threads():1136] run started: adoh3nqt with start time 1705569505.561563
+2024-01-18 11:18:26,062 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: check_version
+2024-01-18 11:18:26,063 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: check_version
+2024-01-18 11:18:26,189 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: run_start
+2024-01-18 11:18:26,215 DEBUG   HandlerThread:20452 [system_info.py:__init__():32] System info init
+2024-01-18 11:18:26,215 DEBUG   HandlerThread:20452 [system_info.py:__init__():47] System info init done
+2024-01-18 11:18:26,215 INFO    HandlerThread:20452 [system_monitor.py:start():194] Starting system monitor
+2024-01-18 11:18:26,216 INFO    SystemMonitor:20452 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-18 11:18:26,216 INFO    HandlerThread:20452 [system_monitor.py:probe():214] Collecting system info
+2024-01-18 11:18:26,221 INFO    SystemMonitor:20452 [interfaces.py:start():190] Started cpu monitoring
+2024-01-18 11:18:26,222 INFO    SystemMonitor:20452 [interfaces.py:start():190] Started disk monitoring
+2024-01-18 11:18:26,222 INFO    SystemMonitor:20452 [interfaces.py:start():190] Started gpu monitoring
+2024-01-18 11:18:26,232 INFO    SystemMonitor:20452 [interfaces.py:start():190] Started memory monitoring
+2024-01-18 11:18:26,244 INFO    SystemMonitor:20452 [interfaces.py:start():190] Started network monitoring
+2024-01-18 11:18:26,254 DEBUG   HandlerThread:20452 [system_info.py:probe():196] Probing system
+2024-01-18 11:18:26,256 DEBUG   HandlerThread:20452 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-18 11:18:26,256 DEBUG   HandlerThread:20452 [system_info.py:probe():244] Probing system done
+2024-01-18 11:18:26,256 DEBUG   HandlerThread:20452 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.11', 'heartbeatAt': '2024-01-18T09:18:26.254602', 'startedAt': '2024-01-18T09:18:25.554593', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'e:\\uni\\Invatare ADANCA\\lab5\\cod_curat.py', 'codePathLocal': 'cod_curat.py', 'codePath': 'cod_curat.py', 'host': 'DESKTOP-421IUJJ', 'username': 'byefu', 'executable': 'C:\\Users\\byefu\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2490.0, 'min': 0.0, 'max': 3801.0}, 'cpu_freq_per_core': [{'current': 2490.0, 'min': 0.0, 'max': 3801.0}], 'disk': {'/': {'total': 226.56249618530273, 'used': 100.22344207763672}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.189807891845703}}
+2024-01-18 11:18:26,256 INFO    HandlerThread:20452 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-18 11:18:26,256 INFO    HandlerThread:20452 [system_monitor.py:probe():227] Publishing system info
+2024-01-18 11:18:26,256 DEBUG   HandlerThread:20452 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-18 11:18:26,259 DEBUG   HandlerThread:20452 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-18 11:18:26,260 INFO    HandlerThread:20452 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-18 11:18:26,265 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:18:26,265 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-18 11:18:26,273 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:18:26,274 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:18:26,277 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:18:26,511 DEBUG   SenderThread:20452 [sender.py:send():382] send: telemetry
+2024-01-18 11:18:27,046 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\rxijc20h-wandb-metadata.json
+2024-01-18 11:18:27,063 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\requirements.txt
+2024-01-18 11:18:27,064 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-metadata.json
+2024-01-18 11:18:31,562 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:32,300 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-18 11:18:32,300 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: log_artifact
+2024-01-18 11:18:32,727 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:18:33,132 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_0_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:33,132 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media
+2024-01-18 11:18:33,133 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table
+2024-01-18 11:18:33,550 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\o8tey8rk-media/table/Predictions_0_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:33,821 INFO    wandb-upload_0:20452 [upload_job.py:push():89] Uploaded file C:\Users\byefu\AppData\Local\wandb\wandb\artifacts\staging\tmptibnh474
+2024-01-18 11:18:34,624 INFO    SenderThread:20452 [sender.py:send_request_log_artifact():1458] logged artifact run-adoh3nqt-Predictions - {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTQ0NzkwMA==', 'latestArtifact': None}}
+2024-01-18 11:18:34,624 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:18:34,624 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file media\table\Predictions_0_459e7b6948dd263183dc.table.json with policy now
+2024-01-18 11:18:34,624 DEBUG   SenderThread:20452 [sender.py:send():382] send: history
+2024-01-18 11:18:34,624 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:18:34,625 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:18:35,143 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\hw2o8u0w-media/table/Predictions_0_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:35,152 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:18:36,651 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:41,294 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:18:41,294 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:18:41,295 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:18:41,508 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-18 11:18:41,508 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: log_artifact
+2024-01-18 11:18:41,529 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:18:41,886 INFO    SenderThread:20452 [sender.py:send_request_log_artifact():1458] logged artifact run-adoh3nqt-Predictions - {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTQ0NzkwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'versionIndex': 0}}}
+2024-01-18 11:18:41,887 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:18:41,888 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file media\table\Predictions_1_459e7b6948dd263183dc.table.json with policy now
+2024-01-18 11:18:41,887 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:41,888 DEBUG   SenderThread:20452 [sender.py:send():382] send: history
+2024-01-18 11:18:41,889 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:18:41,890 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:18:42,225 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:18:42,226 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_1_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:42,226 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table
+2024-01-18 11:18:42,326 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\r68angbi-media/table/Predictions_1_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:42,919 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\mt5jnnpp-media/table/Predictions_1_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:46,944 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:52,000 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:54,490 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-18 11:18:54,490 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: log_artifact
+2024-01-18 11:18:54,502 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:18:54,689 INFO    SenderThread:20452 [sender.py:send_request_log_artifact():1458] logged artifact run-adoh3nqt-Predictions - {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTQ0NzkwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'versionIndex': 0}}}
+2024-01-18 11:18:54,689 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:18:54,689 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file media\table\Predictions_2_459e7b6948dd263183dc.table.json with policy now
+2024-01-18 11:18:54,690 DEBUG   SenderThread:20452 [sender.py:send():382] send: history
+2024-01-18 11:18:54,690 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:18:54,691 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:18:55,120 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\ncg6rqxn-media/table/Predictions_2_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:55,357 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:18:55,358 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_2_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:55,358 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table
+2024-01-18 11:18:55,871 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\evxwh0y3-media/table/Predictions_2_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:56,301 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:18:56,302 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:18:56,302 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:18:57,375 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-18 11:18:57,375 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: log_artifact
+2024-01-18 11:18:57,397 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:18:57,565 INFO    SenderThread:20452 [sender.py:send_request_log_artifact():1458] logged artifact run-adoh3nqt-Predictions - {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTQ0NzkwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'versionIndex': 0}}}
+2024-01-18 11:18:57,568 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:18:57,766 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:18:57,766 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file media\table\Predictions_3_459e7b6948dd263183dc.table.json with policy now
+2024-01-18 11:18:57,767 DEBUG   SenderThread:20452 [sender.py:send():382] send: history
+2024-01-18 11:18:57,767 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:18:57,769 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:18:58,188 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\5wvk3w19-media/table/Predictions_3_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:58,373 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:18:58,374 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\config.yaml
+2024-01-18 11:18:58,374 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_3_459e7b6948dd263183dc.table.json
+2024-01-18 11:18:58,374 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table
+2024-01-18 11:18:58,943 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\biyaol8i-media/table/Predictions_3_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:00,988 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-18 11:19:00,988 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: log_artifact
+2024-01-18 11:19:00,998 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:19:01,206 INFO    SenderThread:20452 [sender.py:send_request_log_artifact():1458] logged artifact run-adoh3nqt-Predictions - {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTQ0NzkwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Njk0OTgyODQ3', 'versionIndex': 0}}}
+2024-01-18 11:19:01,206 DEBUG   SenderThread:20452 [sender.py:send():382] send: files
+2024-01-18 11:19:01,206 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file media\table\Predictions_4_459e7b6948dd263183dc.table.json with policy now
+2024-01-18 11:19:01,207 DEBUG   SenderThread:20452 [sender.py:send():382] send: history
+2024-01-18 11:19:01,207 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:19:01,209 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:19:01,388 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:19:01,388 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_created():271] file/dir created: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_4_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:01,389 INFO    Thread-16 :20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table
+2024-01-18 11:19:01,613 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\7i9lfhcr-media/table/Predictions_4_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:02,115 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file C:\Users\byefu\AppData\Local\Temp\tmpg3oypfx6wandb\xbeq0qd6-media/table/Predictions_4_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:03,232 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:19:08,280 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:19:10,566 DEBUG   SenderThread:20452 [sender.py:send():382] send: exit
+2024-01-18 11:19:10,566 INFO    SenderThread:20452 [sender.py:send_exit():589] handling exit code: 0
+2024-01-18 11:19:10,567 INFO    SenderThread:20452 [sender.py:send_exit():591] handling runtime: 44
+2024-01-18 11:19:10,569 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:19:10,570 INFO    SenderThread:20452 [sender.py:send_exit():597] send defer
+2024-01-18 11:19:10,573 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,573 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-18 11:19:10,574 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,574 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-18 11:19:10,574 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 1
+2024-01-18 11:19:10,574 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,574 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-18 11:19:10,577 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,578 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-18 11:19:10,578 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 2
+2024-01-18 11:19:10,584 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,584 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-18 11:19:10,584 INFO    HandlerThread:20452 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-18 11:19:10,594 DEBUG   SystemMonitor:20452 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-18 11:19:10,594 DEBUG   SystemMonitor:20452 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-18 11:19:10,594 DEBUG   SystemMonitor:20452 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-18 11:19:10,594 INFO    HandlerThread:20452 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-18 11:19:10,596 INFO    HandlerThread:20452 [interfaces.py:finish():202] Joined disk monitor
+2024-01-18 11:19:10,652 INFO    HandlerThread:20452 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-18 11:19:10,652 INFO    HandlerThread:20452 [interfaces.py:finish():202] Joined memory monitor
+2024-01-18 11:19:10,652 INFO    HandlerThread:20452 [interfaces.py:finish():202] Joined network monitor
+2024-01-18 11:19:10,653 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,653 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-18 11:19:10,653 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 3
+2024-01-18 11:19:10,653 DEBUG   SenderThread:20452 [sender.py:send():382] send: stats
+2024-01-18 11:19:10,653 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,653 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-18 11:19:10,653 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,653 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-18 11:19:10,653 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 4
+2024-01-18 11:19:10,654 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,654 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-18 11:19:10,654 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,654 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-18 11:19:10,654 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 5
+2024-01-18 11:19:10,654 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,654 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-18 11:19:10,655 DEBUG   SenderThread:20452 [sender.py:send():382] send: summary
+2024-01-18 11:19:10,655 INFO    SenderThread:20452 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-18 11:19:10,655 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,655 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-18 11:19:10,655 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 6
+2024-01-18 11:19:10,655 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,655 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-18 11:19:10,656 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,656 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-18 11:19:10,656 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 7
+2024-01-18 11:19:10,656 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:19:10,656 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,656 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-18 11:19:10,656 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,656 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-18 11:19:10,656 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 8
+2024-01-18 11:19:10,656 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,656 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-18 11:19:10,657 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,657 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-18 11:19:10,657 INFO    SenderThread:20452 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-18 11:19:10,657 INFO    SenderThread:20452 [job_builder.py:_get_source_type():439] no source found
+2024-01-18 11:19:10,657 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 9
+2024-01-18 11:19:10,657 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:10,657 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-18 11:19:10,658 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:10,658 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-18 11:19:10,658 INFO    SenderThread:20452 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-18 11:19:11,484 INFO    SenderThread:20452 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:19:11,485 INFO    SenderThread:20452 [dir_watcher.py:finish():388] scan: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files
+2024-01-18 11:19:11,485 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\config.yaml config.yaml
+2024-01-18 11:19:11,486 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\requirements.txt requirements.txt
+2024-01-18 11:19:11,486 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-metadata.json wandb-metadata.json
+2024-01-18 11:19:11,486 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json wandb-summary.json
+2024-01-18 11:19:11,492 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_0_459e7b6948dd263183dc.table.json media/table/Predictions_0_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:11,492 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_1_459e7b6948dd263183dc.table.json media/table/Predictions_1_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:11,493 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_2_459e7b6948dd263183dc.table.json media/table/Predictions_2_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:11,493 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_3_459e7b6948dd263183dc.table.json media/table/Predictions_3_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:11,493 INFO    SenderThread:20452 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\media\table\Predictions_4_459e7b6948dd263183dc.table.json media/table/Predictions_4_459e7b6948dd263183dc.table.json
+2024-01-18 11:19:11,493 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 10
+2024-01-18 11:19:11,494 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:11,494 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-18 11:19:11,494 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:11,494 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-18 11:19:11,494 INFO    SenderThread:20452 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 11:19:11,576 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:19:11,576 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:19:11,908 INFO    wandb-upload_1:20452 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\requirements.txt
+2024-01-18 11:19:12,012 INFO    wandb-upload_0:20452 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\config.yaml
+2024-01-18 11:19:12,116 INFO    wandb-upload_2:20452 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\files\wandb-summary.json
+2024-01-18 11:19:12,321 INFO    Thread-15 (_thread_body):20452 [sender.py:transition_state():617] send defer: 11
+2024-01-18 11:19:12,321 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:12,321 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-18 11:19:12,321 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:12,321 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-18 11:19:12,322 INFO    SenderThread:20452 [file_pusher.py:join():181] waiting for file pusher
+2024-01-18 11:19:12,322 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 12
+2024-01-18 11:19:12,322 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:12,322 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-18 11:19:12,322 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:12,322 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-18 11:19:12,322 INFO    SenderThread:20452 [file_stream.py:finish():595] file stream finish called
+2024-01-18 11:19:12,583 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:19:12,848 INFO    SenderThread:20452 [file_stream.py:finish():599] file stream finish is done
+2024-01-18 11:19:12,849 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 13
+2024-01-18 11:19:12,849 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:19:12,849 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:12,849 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-18 11:19:12,849 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:12,849 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-18 11:19:12,849 INFO    SenderThread:20452 [sender.py:transition_state():617] send defer: 14
+2024-01-18 11:19:12,850 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:19:12,850 DEBUG   SenderThread:20452 [sender.py:send():382] send: final
+2024-01-18 11:19:12,850 INFO    HandlerThread:20452 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-18 11:19:12,850 DEBUG   SenderThread:20452 [sender.py:send():382] send: footer
+2024-01-18 11:19:12,850 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:19:12,850 INFO    SenderThread:20452 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-18 11:19:12,850 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:19:12,851 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:19:12,851 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:19:12,851 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: server_info
+2024-01-18 11:19:12,851 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:19:12,852 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-18 11:19:12,852 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: server_info
+2024-01-18 11:19:12,852 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-18 11:19:12,853 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:19:12,854 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: job_info
+2024-01-18 11:19:13,017 DEBUG   SenderThread:20452 [sender.py:send_request():409] send_request: job_info
+2024-01-18 11:19:13,017 INFO    MainThread:20452 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-18 11:19:13,017 INFO    MainThread:20452 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-18 11:19:13,017 INFO    MainThread:20452 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-18 11:19:13,018 DEBUG   HandlerThread:20452 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-18 11:19:13,018 INFO    HandlerThread:20452 [handler.py:finish():866] shutting down handler
+2024-01-18 11:19:13,865 INFO    WriterThread:20452 [datastore.py:close():294] close: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_111825-adoh3nqt\run-adoh3nqt.wandb
+2024-01-18 11:19:14,021 INFO    SenderThread:20452 [sender.py:finish():1548] shutting down sender
+2024-01-18 11:19:14,021 INFO    SenderThread:20452 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 11:19:14,021 INFO    SenderThread:20452 [file_pusher.py:join():181] waiting for file pusher

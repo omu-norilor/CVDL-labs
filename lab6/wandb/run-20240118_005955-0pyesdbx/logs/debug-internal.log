@@ -1,0 +1,21 @@
+2024-01-18 00:59:55,556 INFO    StreamThr :3580 [internal.py:wandb_internal():86] W&B internal server running at pid: 3580, started at: 2024-01-18 00:59:55.556511
+2024-01-18 00:59:55,558 DEBUG   HandlerThread:3580 [handler.py:handle_request():146] handle_request: status
+2024-01-18 00:59:55,559 INFO    WriterThread:3580 [datastore.py:open_for_write():85] open: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\run-0pyesdbx.wandb
+2024-01-18 00:59:55,561 DEBUG   SenderThread:3580 [sender.py:send():382] send: header
+2024-01-18 00:59:55,561 DEBUG   SenderThread:3580 [sender.py:send():382] send: run
+2024-01-18 00:59:55,983 INFO    SenderThread:3580 [dir_watcher.py:__init__():211] watching files in: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\files
+2024-01-18 00:59:55,989 DEBUG   HandlerThread:3580 [handler.py:handle_request():146] handle_request: check_version
+2024-01-18 00:59:55,991 INFO    SenderThread:3580 [sender.py:_start_run_threads():1136] run started: 0pyesdbx with start time 1705532395.557511
+2024-01-18 00:59:55,991 DEBUG   SenderThread:3580 [sender.py:send_request():409] send_request: check_version
+2024-01-18 00:59:56,174 DEBUG   HandlerThread:3580 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-18 00:59:56,174 INFO    HandlerThread:3580 [handler.py:finish():866] shutting down handler
+2024-01-18 00:59:57,001 INFO    WriterThread:3580 [datastore.py:close():294] close: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\run-0pyesdbx.wandb
+2024-01-18 00:59:57,173 INFO    SenderThread:3580 [sender.py:finish():1548] shutting down sender
+2024-01-18 00:59:57,173 INFO    SenderThread:3580 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-18 00:59:57,996 INFO    SenderThread:3580 [dir_watcher.py:finish():388] scan: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\files
+2024-01-18 00:59:57,996 INFO    SenderThread:3580 [dir_watcher.py:finish():402] scan save: E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\files\config.yaml config.yaml
+2024-01-18 00:59:57,997 INFO    SenderThread:3580 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 00:59:57,997 INFO    SenderThread:3580 [file_pusher.py:join():181] waiting for file pusher
+2024-01-18 00:59:58,628 INFO    wandb-upload_0:3580 [upload_job.py:push():131] Uploaded file E:\uni\Invatare ADANCA\lab5\wandb\run-20240118_005955-0pyesdbx\files\config.yaml
+2024-01-18 00:59:59,022 INFO    SenderThread:3580 [file_stream.py:finish():595] file stream finish called
+2024-01-18 00:59:59,224 INFO    SenderThread:3580 [file_stream.py:finish():599] file stream finish is done

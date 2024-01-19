@@ -1,0 +1,29 @@
+> e:\uni\invatare adanca\lab5\cod_curat.py(310)test_prediction()
+-> rgb_image = np.zeros((250, 250, 3), dtype=np.uint8)
+> e:\uni\invatare adanca\lab5\cod_curat.py(312)test_prediction()
+-> for channel in range(3):
+> e:\uni\invatare adanca\lab5\cod_curat.py(314)test_prediction()
+-> rgb_image[:, :, channel] = (matrix == channel + 1) * 255
+ValueError: could not broadcast input array from shape (3,250,250) into shape (250,250)
+> e:\uni\invatare adanca\lab5\cod_curat.py(314)test_prediction()
+-> rgb_image[:, :, channel] = (matrix == channel + 1) * 255
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 342, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 314, in test_prediction
+    rgb_image[:, :, channel] = (matrix == channel + 1) * 255
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 96, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 176, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 342, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 314, in test_prediction
+    rgb_image[:, :, channel] = (matrix == channel + 1) * 255
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 96, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\bdb.py", line 176, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

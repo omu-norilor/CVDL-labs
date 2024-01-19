@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 342, in <module>
+    test_prediction()
+  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 318, in test_prediction
+    plt.imshow(outputs[j])
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 3343, in imshow
+    __ret = gca().imshow(
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_axes.py", line 5756, in imshow
+    im.set_data(X)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\image.py", line 723, in set_data
+    self._A = self._normalize_image_array(A)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\image.py", line 686, in _normalize_image_array
+    A = cbook.safe_masked_invalid(A, copy=True)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 733, in safe_masked_invalid
+    x = np.array(x, subok=True, copy=copy)
+  File "C:\Users\byefu\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\_tensor.py", line 1030, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
