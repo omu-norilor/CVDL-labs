@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 288, in <module>
-    unet_training_loop()
-  File "e:\uni\Invatare ADANCA\lab5\cod_curat.py", line 176, in unet_training_loop
-    dataset = LFWDataset(base_folder='data', transforms=None, download=False)
-  File "e:\uni\Invatare ADANCA\lab5\dataset.py", line 96, in __init__
-    self.X = self.X.permute(0, 3, 1, 2)
-RuntimeError: permute(sparse_coo): number of dimensions in the tensor input does not match the length of the desired ordering of dimensions i.e. input.dim() = 3 is not equal to len(dims) = 4
